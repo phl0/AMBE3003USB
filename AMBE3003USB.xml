@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Wed 17 May 2017 09:51:00 AM CEST</date>
+    <date>Wed 17 May 2017 10:57:27 AM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>AMBE3003USB</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>v0.1</rev>
+        <date>2017-05-17</date>
         <source>AMBE3003USB.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -212,43 +212,43 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ftdi">
-      <uri>/usr/share/kicad/library/ftdi.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="ftdi">
+      <uri>/usr/share/kicad/library/ftdi.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="7"/>
       <node ref="U1" pin="21"/>
       <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
       <node ref="U1" pin="25"/>
       <node ref="C2" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="P1" pin="5"/>
-      <node ref="P1" pin="4"/>
-      <node ref="U1" pin="18"/>
-      <node ref="U1" pin="26"/>
       <node ref="C1" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C3" pin="2"/>
     </net>
     <net code="2" name="+5V">
-      <node ref="C3" pin="1"/>
-      <node ref="U1" pin="20"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C1" pin="1"/>
       <node ref="P1" pin="1"/>
-      <node ref="D2" pin="1"/>
       <node ref="D1" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="1"/>
       <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
     </net>
     <net code="3" name="Net-(P1-Pad3)">
-      <node ref="P1" pin="3"/>
       <node ref="U1" pin="16"/>
+      <node ref="P1" pin="3"/>
     </net>
     <net code="4" name="Net-(P1-Pad2)">
       <node ref="U1" pin="15"/>
@@ -265,8 +265,8 @@
       <node ref="U1" pin="14"/>
     </net>
     <net code="8" name="Net-(R1-Pad2)">
-      <node ref="U1" pin="23"/>
       <node ref="R1" pin="2"/>
+      <node ref="U1" pin="23"/>
     </net>
     <net code="9" name="Net-(U1-Pad13)">
       <node ref="U1" pin="13"/>
@@ -295,13 +295,13 @@
     <net code="17" name="Net-(U1-Pad1)">
       <node ref="U1" pin="1"/>
     </net>
-    <net code="18" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="19" name="Net-(R2-Pad2)">
+    <net code="18" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2"/>
       <node ref="U1" pin="22"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
     </net>
     <net code="20" name="Net-(D1-Pad2)">
       <node ref="R1" pin="1"/>
