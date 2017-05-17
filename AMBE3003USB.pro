@@ -1,4 +1,4 @@
-update=Wed 17 May 2017 08:55:30 AM CEST
+update=Wed 17 May 2017 12:09:15 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=ftdi
 LibName31=ESD_Protection
+LibName32=custom_components
