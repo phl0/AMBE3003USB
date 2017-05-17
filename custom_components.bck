@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FX614
+D Bell 202 Compatible Modem, DIP-16/SO-16
+K Bell Modem
+F contrib/fx614ds.pdf
+$ENDCMP
+#
+$CMP TLV78319
+D 150 mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tps783.pdf
+$ENDCMP
+#
+$CMP TPS78319
+D 150mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tps783.pdf
+$ENDCMP
+#
+#End Doc Library

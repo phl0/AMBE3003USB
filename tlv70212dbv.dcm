@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV70212DBV
+D 150mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tps783.pdf
+$ENDCMP
+#
+#End Doc Library
