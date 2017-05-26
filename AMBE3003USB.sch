@@ -1005,7 +1005,7 @@ U 1 1 59252D25
 P 4300 3350
 F 0 "TP3" H 4300 3650 50  0000 C BNN
 F 1 "TEST" H 4300 3600 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 4300 3350 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 3350 50  0001 C CNN
 F 3 "" H 4300 3350 50  0001 C CNN
 	1    4300 3350
 	1    0    0    -1  
@@ -1016,7 +1016,7 @@ U 1 1 59253165
 P 4100 3350
 F 0 "TP2" H 4100 3650 50  0000 C BNN
 F 1 "TEST" H 4100 3600 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 4100 3350 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 3350 50  0001 C CNN
 F 3 "" H 4100 3350 50  0001 C CNN
 	1    4100 3350
 	1    0    0    -1  
@@ -1027,7 +1027,7 @@ U 1 1 592535FC
 P 3900 3350
 F 0 "TP1" H 3900 3650 50  0000 C BNN
 F 1 "TEST" H 3900 3600 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 3900 3350 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3350 50  0001 C CNN
 F 3 "" H 3900 3350 50  0001 C CNN
 	1    3900 3350
 	1    0    0    -1  
