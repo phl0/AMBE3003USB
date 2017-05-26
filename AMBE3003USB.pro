@@ -1,4 +1,4 @@
-update=26.05.2017 10:34:45
+update=Fri 26 May 2017 11:29:31 AM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/florian/Desktop/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=49
 [eeschema]
 version=1
 LibDir=
@@ -63,13 +73,3 @@ LibName31=ftdi
 LibName32=ESD_Protection
 LibName33=custom_components
 LibName34=Oscillators
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/home/florian/Desktop/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=49
