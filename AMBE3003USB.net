@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:/Users/schmieder/Projekte/AMBE3003USB/AMBE3003USB.sch)
-    (date "26.05.2017 12:21:59")
-    (tool "Eeschema 4.0.6")
+    (source /home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch)
+    (date "Wed 07 Jun 2017 03:56:57 PM CEST")
+    (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title AMBE3003USB)
@@ -588,7 +588,7 @@
     (comp (ref X1)
       (value SG-210STF)
       (footprint Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm)
-      (libsource (lib Oscillators) (part SG-210STF))
+      (libsource (lib AMBE3003USB-cache) (part SG-210STF))
       (sheetpath (names /) (tstamps /))
       (tstamp 592A4AE5)))
   (libparts
@@ -728,7 +728,11 @@
     (libpart (lib device) (part C)
       (description "Unpolarized capacitor")
       (footprints
-        (fp C_*))
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
       (fields
         (field (name Reference) C)
         (field (name Value) C))
@@ -736,15 +740,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_02X03)
-      (description "Connector, double row, 02x03, pin header")
+      (description "Connector 02x03")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*)
-        (fp IDC_Header_Straight_*))
+        (fp Pin_Header_Straight_2X03)
+        (fp Pin_Header_Angled_2X03)
+        (fp Socket_Strip_Straight_2X03)
+        (fp Socket_Strip_Angled_2X03))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X03))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -754,15 +757,14 @@
         (pin (num 5) (name P5) (type passive))
         (pin (num 6) (name P6) (type passive))))
     (libpart (lib conn) (part CONN_02X04)
-      (description "Connector, double row, 02x04, pin header")
+      (description "Connector 02x04")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*)
-        (fp IDC_Header_Straight_*))
+        (fp Pin_Header_Straight_2X04)
+        (fp Pin_Header_Angled_2X04)
+        (fp Socket_Strip_Straight_2X04)
+        (fp Socket_Strip_Angled_2X04))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X04))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -774,15 +776,14 @@
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive))))
     (libpart (lib conn) (part CONN_02X05)
-      (description "Connector, double row, 02x05, pin header")
+      (description "Connector 02x05")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*)
-        (fp IDC_Header_Straight_*))
+        (fp Pin_Header_Straight_2X05)
+        (fp Pin_Header_Angled_2X05)
+        (fp Socket_Strip_Straight_2X05)
+        (fp Socket_Strip_Angled_2X05))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X05))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -796,14 +797,14 @@
         (pin (num 9) (name P9) (type passive))
         (pin (num 10) (name P10) (type passive))))
     (libpart (lib conn) (part CONN_02X16)
-      (description "Connector, double row, 02x16, pin header")
+      (description "Connector 02x16")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*))
+        (fp Pin_Header_Straight_2X16)
+        (fp Pin_Header_Angled_2X16)
+        (fp Socket_Strip_Straight_2X16)
+        (fp Socket_Strip_Angled_2X16))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X16))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -841,7 +842,12 @@
     (libpart (lib device) (part CP)
       (description "Polarised capacitor")
       (footprints
-        (fp CP_*))
+        (fp CP*)
+        (fp Elko*)
+        (fp TantalC*)
+        (fp C*elec)
+        (fp c_elec*)
+        (fp SMD*_Pol))
       (fields
         (field (name Reference) C)
         (field (name Value) CP))
@@ -902,7 +908,7 @@
       (fields
         (field (name Reference) U)
         (field (name Value) LD1117S33TR)
-        (field (name Footprint) TO_SOT_Packages_SMD:SOT-223))
+        (field (name Footprint) SOT-223))
       (pins
         (pin (num 1) (name GND) (type power_in))
         (pin (num 2) (name VO) (type power_out))
@@ -923,12 +929,10 @@
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
     (libpart (lib device) (part L_Small)
-      (description "Inductor, small symbol")
+      (description Inductor)
       (footprints
-        (fp Choke_*)
-        (fp *Coil*)
-        (fp Inductor_*)
-        (fp L_*))
+        (fp CP*)
+        (fp SM*))
       (fields
         (field (name Reference) L)
         (field (name Value) L_Small))
@@ -939,18 +943,16 @@
       (description Resistor)
       (footprints
         (fp R_*)
-        (fp R_*))
+        (fp Resistor_*))
       (fields
         (field (name Reference) R)
         (field (name Value) R))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib Oscillators) (part SG-210STF)
+    (libpart (lib AMBE3003USB-cache) (part SG-210STF)
       (aliases
         (alias SG-211))
-      (description "CMOS Crystal Oscillator SPXO")
-      (docs https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF)
       (footprints
         (fp Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*))
       (fields
@@ -1007,22 +1009,20 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name Shield) (type passive)))))
   (libraries
-    (library (logical Oscillators)
-      (uri C:\Users\schmieder\KiCadPortable\App\KiCad\share\kicad\library\Oscillators.lib))
-    (library (logical ftdi)
-      (uri C:\Users\schmieder\KiCadPortable\App\KiCad\share\kicad\library\ftdi.lib))
-    (library (logical custom_components)
-      (uri C:\Users\schmieder\Projekte\AMBE3003USB\custom_components.lib))
-    (library (logical AMBE3003USB-cache)
-      (uri C:\Users\schmieder\Projekte\AMBE3003USB\AMBE3003USB-cache.lib))
-    (library (logical conn)
-      (uri C:\Users\schmieder\KiCadPortable\App\KiCad\share\kicad\library\conn.lib))
-    (library (logical regul)
-      (uri C:\Users\schmieder\KiCadPortable\App\KiCad\share\kicad\library\regul.lib))
-    (library (logical AMBE3003USB-rescue)
-      (uri C:\Users\schmieder\Projekte\AMBE3003USB\AMBE3003USB-rescue.lib))
     (library (logical device)
-      (uri C:\Users\schmieder\KiCadPortable\App\KiCad\share\kicad\library\device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical AMBE3003USB-rescue)
+      (uri /home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib))
+    (library (logical regul)
+      (uri /usr/share/kicad/library/regul.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical custom_components)
+      (uri /home/florian/Desktop/AMBE3003USB/custom_components.lib))
+    (library (logical ftdi)
+      (uri /usr/share/kicad/library/ftdi.lib))
+    (library (logical AMBE3003USB-cache)
+      (uri /home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib)))
   (nets
     (net (code 1) (name "Net-(R25-Pad2)")
       (node (ref U1) (pin 80))
