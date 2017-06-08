@@ -1424,12 +1424,12 @@ CODEC_RESETn
 $Comp
 L CONN_02X03 J2
 U 1 1 5928D899
-P 5900 6300
-F 0 "J2" H 5900 6100 50  0000 C CNN
-F 1 "ACONF" V 5900 6300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 5900 5100 50  0001 C CNN
-F 3 "" H 5900 5100 50  0001 C CNN
-	1    5900 6300
+P 6450 6300
+F 0 "J2" H 6450 6100 50  0000 C CNN
+F 1 "ACONF" V 6450 6300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 6450 5100 50  0001 C CNN
+F 3 "" H 6450 5100 50  0001 C CNN
+	1    6450 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1468,12 +1468,12 @@ $EndComp
 $Comp
 L +3.3V #PWR047
 U 1 1 5928F66B
-P 6250 6150
-F 0 "#PWR047" H 6250 6000 50  0001 C CNN
-F 1 "+3.3V" H 6250 6290 50  0000 C CNN
-F 2 "" H 6250 6150 50  0000 C CNN
-F 3 "" H 6250 6150 50  0000 C CNN
-	1    6250 6150
+P 6950 6150
+F 0 "#PWR047" H 6950 6000 50  0001 C CNN
+F 1 "+3.3V" H 6950 6290 50  0000 C CNN
+F 2 "" H 6950 6150 50  0000 C CNN
+F 3 "" H 6950 6150 50  0000 C CNN
+	1    6950 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1727,12 +1727,12 @@ SPI_FSn
 $Comp
 L USB_OTG-RESCUE-AMBE3003USB J4
 U 1 1 592902DE
-P 6550 3600
-F 0 "J4" H 6350 4050 50  0000 L CNN
-F 1 "USB_OTG" H 6350 3950 50  0000 L CNN
-F 2 "Connectors:USB_Mini-B" H 6700 3550 50  0001 C CNN
-F 3 "" H 6700 3550 50  0001 C CNN
-	1    6550 3600
+P 6300 3600
+F 0 "J4" H 6100 4050 50  0000 L CNN
+F 1 "USB_OTG" H 6100 3950 50  0000 L CNN
+F 2 "Connectors:USB_Mini-B" H 6450 3550 50  0001 C CNN
+F 3 "" H 6450 3550 50  0001 C CNN
+	1    6300 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1757,7 +1757,7 @@ F 3 "" H 7950 4200 50  0000 C CNN
 	1    7950 4200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6900 3800
+NoConn ~ 6600 3800
 NoConn ~ 4600 6650
 $Comp
 L R R34
@@ -1913,8 +1913,6 @@ F 3 "" H 5350 5600 50  0000 C CNN
 $EndComp
 Text Label 4600 6200 0    49   ~ 0
 _SK_ENABLE
-Text Label 4600 6300 0    49   ~ 0
-_ES_ENABLE
 Text Label 4600 6400 0    49   ~ 0
 _EC_ENABLE
 Text Label 800  6400 0    49   ~ 0
@@ -1930,11 +1928,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 6550 5450 6650
 Wire Wire Line
-	5450 6200 5650 6200
+	5450 6200 6200 6200
 Wire Wire Line
-	5450 6300 5650 6300
-Wire Wire Line
-	5450 6400 5650 6400
+	5450 6300 6200 6300
 Wire Wire Line
 	8250 4150 8250 4200
 Wire Wire Line
@@ -1957,14 +1953,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 3400 7200 3400
 Wire Wire Line
-	6850 3400 6900 3400
-Connection ~ 6550 4050
+	6600 3400 6900 3400
 Wire Wire Line
-	6550 4050 6550 4000
-Wire Wire Line
-	6450 4050 6450 4000
-Wire Wire Line
-	6900 4200 6900 4050
+	6900 4050 6900 4200
 Wire Wire Line
 	7250 5800 7350 5800
 Wire Wire Line
@@ -2028,31 +2019,15 @@ Wire Wire Line
 	6100 6600 6100 6850
 Wire Wire Line
 	6100 6800 6050 6800
-Connection ~ 5600 6400
 Wire Wire Line
 	5600 6800 5750 6800
 Wire Wire Line
-	5600 6400 5600 6800
-Connection ~ 5550 6300
-Wire Wire Line
 	5550 6700 5750 6700
-Wire Wire Line
-	5550 6300 5550 6700
 Connection ~ 5500 6200
 Wire Wire Line
 	5500 6600 5750 6600
 Wire Wire Line
 	5500 6200 5500 6600
-Connection ~ 6250 6300
-Wire Wire Line
-	6250 6400 6150 6400
-Connection ~ 6250 6200
-Wire Wire Line
-	6250 6300 6150 6300
-Wire Wire Line
-	6250 6150 6250 6400
-Wire Wire Line
-	6150 6200 6250 6200
 Wire Wire Line
 	4600 6400 5150 6400
 Wire Wire Line
@@ -2124,13 +2099,13 @@ Wire Wire Line
 	6400 2600 6400 2700
 Connection ~ 6650 2700
 Wire Wire Line
-	6650 2600 6650 2700
+	6650 2700 6650 2600
 Connection ~ 6900 2700
 Wire Wire Line
-	6900 2600 6900 2700
+	6900 2700 6900 2600
 Connection ~ 7150 2700
 Wire Wire Line
-	7150 2600 7150 2700
+	7150 2700 7150 2600
 Connection ~ 6750 2700
 Wire Wire Line
 	7400 2700 7400 2600
@@ -2153,13 +2128,13 @@ Wire Wire Line
 	6400 2300 6400 2200
 Connection ~ 6650 2200
 Wire Wire Line
-	6650 2300 6650 2200
+	6650 2200 6650 2300
 Connection ~ 6900 2200
 Wire Wire Line
-	6900 2300 6900 2200
+	6900 2200 6900 2300
 Connection ~ 7150 2200
 Wire Wire Line
-	7150 2300 7150 2200
+	7150 2200 7150 2300
 Connection ~ 6800 2200
 Wire Wire Line
 	7400 2200 7400 2300
@@ -2334,8 +2309,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 3250 7550 3850
 Connection ~ 7550 3500
-Wire Wire Line
-	6850 3800 6900 3800
 Wire Wire Line
 	10750 2750 10750 2600
 Connection ~ 11000 2600
@@ -2645,15 +2618,15 @@ Connection ~ 950  3100
 Wire Wire Line
 	8050 3600 7900 3600
 Wire Wire Line
-	6850 3600 7600 3600
+	6600 3600 7600 3600
 Wire Wire Line
-	6850 3700 7600 3700
+	6600 3700 7600 3700
 Wire Wire Line
 	7900 3700 8150 3700
 Wire Wire Line
 	7550 4200 7550 4150
 Wire Wire Line
-	6900 4050 6450 4050
+	6200 4050 6900 4050
 Wire Wire Line
 	7200 3700 7200 3850
 Connection ~ 7200 3700
@@ -2782,4 +2755,41 @@ Wire Wire Line
 	5800 3800 5800 3500
 Text Label 4600 6550 0    49   ~ 0
 _X1/CLKIN
+Text Label 6650 3600 0    49   ~ 0
+D+
+Text Label 6650 3700 0    49   ~ 0
+D-
+Text Label 6650 3400 0    49   ~ 0
+VBUS
+Wire Wire Line
+	6200 4050 6200 4000
+Wire Wire Line
+	6300 4000 6300 4050
+Connection ~ 6300 4050
+Text Label 4600 6300 0    49   ~ 0
+_ES_ENABLE
+Text Label 5700 6200 0    49   ~ 0
+SK_ENABLE
+Text Label 5700 6300 0    49   ~ 0
+ES_ENABLE
+Wire Wire Line
+	5450 6400 6200 6400
+Wire Wire Line
+	5550 6700 5550 6300
+Connection ~ 5550 6300
+Wire Wire Line
+	5600 6800 5600 6400
+Connection ~ 5600 6400
+Wire Wire Line
+	6700 6200 6950 6200
+Wire Wire Line
+	6950 6150 6950 6400
+Wire Wire Line
+	6950 6300 6700 6300
+Connection ~ 6950 6200
+Wire Wire Line
+	6950 6400 6700 6400
+Connection ~ 6950 6300
+Text Label 5700 6400 0    49   ~ 0
+EC_ENABLE
 $EndSCHEMATC
