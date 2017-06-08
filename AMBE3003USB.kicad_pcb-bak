@@ -4224,10 +4224,10 @@
       (net 77 "Net-(TP3-Pad1)"))
   )
 
-  (gr_line (start 116.1288 114.554) (end 52.1208 114.554) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 116.1288 50.3936) (end 116.1288 114.554) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 52.1208 50.3936) (end 116.1288 50.3936) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 52.1208 114.554) (end 52.1208 50.3936) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 114.808 114.808) (end 50.8 114.808) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 114.808 50.546) (end 114.808 114.808) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 50.8 50.546) (end 114.808 50.546) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 50.8 114.808) (end 50.8 50.546) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 87.45 100.65) (end 87.45 103.8) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 87.45 103.8) (end 87.25 104) (width 0.2) (layer F.Cu) (net 1))
