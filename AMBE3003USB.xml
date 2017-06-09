@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:15:06 PM CEST</date>
+    <date>Fri 09 Jun 2017 01:35:00 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -58,7 +58,13 @@
     <comp ref="R46">
       <value>270</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07270RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-07270RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BF308</tstamp>
@@ -66,7 +72,13 @@
     <comp ref="R47">
       <value>270</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07270RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-07270RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BF3DB</tstamp>
@@ -120,7 +132,13 @@
     <comp ref="R19">
       <value>270</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07270RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-07270RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C2C2D</tstamp>
@@ -144,7 +162,13 @@
     <comp ref="R10">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CBB1B</tstamp>
@@ -152,7 +176,13 @@
     <comp ref="R12">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CC4F9</tstamp>
@@ -160,7 +190,13 @@
     <comp ref="R11">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CC55C</tstamp>
@@ -176,7 +212,13 @@
     <comp ref="R13">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D2038</tstamp>
@@ -184,7 +226,13 @@
     <comp ref="R14">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D20C5</tstamp>
@@ -192,7 +240,13 @@
     <comp ref="R15">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D21B3</tstamp>
@@ -200,7 +254,13 @@
     <comp ref="R16">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D22B6</tstamp>
@@ -208,7 +268,13 @@
     <comp ref="R17">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D2379</tstamp>
@@ -216,7 +282,13 @@
     <comp ref="R2">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D424E</tstamp>
@@ -224,7 +296,13 @@
     <comp ref="R3">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D43BB</tstamp>
@@ -232,7 +310,13 @@
     <comp ref="R4">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D4633</tstamp>
@@ -240,7 +324,13 @@
     <comp ref="R5">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D47AA</tstamp>
@@ -248,7 +338,13 @@
     <comp ref="R6">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D482B</tstamp>
@@ -256,7 +352,13 @@
     <comp ref="R7">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D48F8</tstamp>
@@ -264,7 +366,13 @@
     <comp ref="R8">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D4A01</tstamp>
@@ -272,7 +380,13 @@
     <comp ref="R9">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D4AA6</tstamp>
@@ -280,7 +394,13 @@
     <comp ref="R38">
       <value>27</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0727RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-0727RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D8344</tstamp>
@@ -288,7 +408,13 @@
     <comp ref="R39">
       <value>27</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0727RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-0727RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D83EB</tstamp>
@@ -342,7 +468,13 @@
     <comp ref="R42">
       <value>10</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-0710RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E684B</tstamp>
@@ -358,7 +490,13 @@
     <comp ref="R43">
       <value>24k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0724KL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-0724KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E7712</tstamp>
@@ -382,7 +520,13 @@
     <comp ref="R18">
       <value>24k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0724KL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-0724KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59246138</tstamp>
@@ -390,7 +534,13 @@
     <comp ref="R44">
       <value>24k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0724KL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-0724KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59246CFB</tstamp>
@@ -398,7 +548,13 @@
     <comp ref="R40">
       <value>3k74</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K74L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K74L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59248F0A</tstamp>
@@ -406,7 +562,13 @@
     <comp ref="R41">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/PYu-AR_51_RoHS_L_(7)-775079.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">AR0603FR-0710KL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-AR0603FR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59248FB9</tstamp>
@@ -558,7 +720,13 @@
     <comp ref="R20">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59280DA1</tstamp>
@@ -566,7 +734,13 @@
     <comp ref="R21">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59280F0E</tstamp>
@@ -574,7 +748,13 @@
     <comp ref="R22">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59280FFC</tstamp>
@@ -582,7 +762,13 @@
     <comp ref="R23">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592810ED</tstamp>
@@ -590,7 +776,13 @@
     <comp ref="R24">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281441</tstamp>
@@ -598,7 +790,13 @@
     <comp ref="R25">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281538</tstamp>
@@ -606,7 +804,13 @@
     <comp ref="R26">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281632</tstamp>
@@ -614,7 +818,13 @@
     <comp ref="R28">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281833</tstamp>
@@ -622,7 +832,13 @@
     <comp ref="R29">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281938</tstamp>
@@ -630,7 +846,13 @@
     <comp ref="R30">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281A3E</tstamp>
@@ -654,7 +876,13 @@
     <comp ref="R31">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5928E1DD</tstamp>
@@ -662,7 +890,13 @@
     <comp ref="R32">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5928E2F3</tstamp>
@@ -670,7 +904,13 @@
     <comp ref="R33">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5928E408</tstamp>
@@ -678,7 +918,13 @@
     <comp ref="R35">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592907E6</tstamp>
@@ -686,7 +932,13 @@
     <comp ref="R36">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59290DF2</tstamp>
@@ -694,7 +946,13 @@
     <comp ref="R37">
       <value>3k3</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-073K3L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59290F10</tstamp>
@@ -710,7 +968,13 @@
     <comp ref="R45">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/PYu-AR_51_RoHS_L_(7)-775079.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">AR0603FR-0710KL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-AR0603FR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592953B9</tstamp>
@@ -810,7 +1074,13 @@
     <comp ref="R27">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-070RL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5928172F</tstamp>
@@ -1303,26 +1573,26 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="AMBE3003USB-rescue">
-      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
-    </library>
     <library logical="AMBE3003USB-cache">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
     </library>
     <library logical="custom_components">
       <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
     <library logical="ftdi">
       <uri>/usr/share/kicad/library/ftdi.lib</uri>
+    </library>
+    <library logical="AMBE3003USB-rescue">
+      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
