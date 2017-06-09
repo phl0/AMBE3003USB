@@ -1687,7 +1687,7 @@
     (fp_text reference L1 (at 3.3 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value L_Small (at -4.8515 -0.091 180) (layer F.Fab)
+    (fp_text value 100MHz (at -4.8515 -0.091 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
