@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:38:46 PM CEST</date>
+    <date>Fri 09 Jun 2017 01:44:22 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -966,7 +966,13 @@
     <comp ref="U2">
       <value>LD1117S33TR</value>
       <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/389/ld1117-974075.pdf</datasheet>
+      <fields>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MPN">LD1117S33TR</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">511-LD1117S33</field>
+      </fields>
       <libsource lib="regul" part="LD1117S33TR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5929444D</tstamp>
@@ -1004,7 +1010,13 @@
     <comp ref="U5">
       <value>TPS78319</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.ti.com/lit/gpn/tps783</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">TPS78319DDCR</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">595-TPS78319DDCR</field>
+      </fields>
       <libsource lib="custom_components" part="TPS78319"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5925A833</tstamp>
@@ -1012,7 +1024,13 @@
     <comp ref="U3">
       <value>TPS3805</value>
       <footprint>TI:DCK</footprint>
-      <fields/>
+      <datasheet>http://www.ti.com/lit/gpn/tps3805h33</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">TPS3805H33DCKR</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">595-TPS3805H33DCKR</field>
+      </fields>
       <libsource lib="AMBE3003USB-cache" part="TPS3805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5925AD22</tstamp>
@@ -1585,26 +1603,26 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
     <library logical="AMBE3003USB-cache">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
-    </library>
-    <library logical="ftdi">
-      <uri>/usr/share/kicad/library/ftdi.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
     </library>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
+    <library logical="ftdi">
+      <uri>/usr/share/kicad/library/ftdi.lib</uri>
     </library>
   </libraries>
   <nets>
