@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:57:26 PM CEST</date>
+    <date>Fri 09 Jun 2017 01:59:18 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1120,7 +1120,13 @@
     <comp ref="X1">
       <value>29.4912</value>
       <footprint>Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/137/G-210STF_en-1003240.pdf</datasheet>
+      <fields>
+        <field name="MFR">Epson Timing</field>
+        <field name="MPN">SG-210STF 29.4912ML3</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">732-SG210STF29.491L3</field>
+      </fields>
       <libsource lib="AMBE3003USB-cache" part="SG-210STF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592A4AE5</tstamp>
@@ -1633,14 +1639,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
+    <library logical="AMBE3003USB-cache">
+      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
     <library logical="ftdi">
       <uri>/usr/share/kicad/library/ftdi.lib</uri>
-    </library>
-    <library logical="AMBE3003USB-cache">
-      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
@@ -1648,11 +1654,11 @@
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
     </library>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
+    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
   </libraries>
   <nets>
