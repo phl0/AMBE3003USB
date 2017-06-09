@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 02:17:42 PM CEST</date>
+    <date>Fri 09 Jun 2017 02:50:40 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -517,9 +517,8 @@
       <tstamp>591E684B</tstamp>
     </comp>
     <comp ref="C29">
-      <value>1µ</value>
+      <value>1u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E720D</tstamp>
