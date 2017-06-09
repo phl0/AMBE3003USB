@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:59:18 PM CEST</date>
+    <date>Fri 09 Jun 2017 02:17:42 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -92,15 +92,20 @@
     <comp ref="C7">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BFBA2</tstamp>
     </comp>
     <comp ref="C9">
-      <value>4µ7</value>
+      <value>4u7</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BFDA8</tstamp>
@@ -108,7 +113,13 @@
     <comp ref="C23">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C01D8</tstamp>
@@ -116,7 +127,13 @@
     <comp ref="C24">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C0987</tstamp>
@@ -150,17 +167,15 @@
       <tstamp>591C2C2D</tstamp>
     </comp>
     <comp ref="C27">
-      <value>1µ</value>
+      <value>1u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C395F</tstamp>
     </comp>
     <comp ref="C30">
-      <value>2µ2</value>
+      <value>2u2</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C3C8A</tstamp>
@@ -434,7 +449,13 @@
     <comp ref="C20">
       <value>47p</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">06036A470JAT2A</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">581-06036A470JAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D9B45</tstamp>
@@ -442,23 +463,27 @@
     <comp ref="C21">
       <value>47p</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">06036A470JAT2A</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">581-06036A470JAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DAD3E</tstamp>
     </comp>
     <comp ref="C25">
-      <value>1µ</value>
+      <value>1u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DEF98</tstamp>
     </comp>
     <comp ref="C28">
-      <value>1µ</value>
+      <value>1u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DF639</tstamp>
@@ -530,7 +555,13 @@
     <comp ref="C1">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59245500</tstamp>
@@ -594,7 +625,13 @@
     <comp ref="C26">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592494D4</tstamp>
@@ -624,17 +661,15 @@
       <tstamp>592535FC</tstamp>
     </comp>
     <comp ref="C3">
-      <value>10µ</value>
+      <value>10u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5925418B</tstamp>
     </comp>
     <comp ref="C2">
-      <value>10µ</value>
+      <value>10u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59254589</tstamp>
@@ -642,7 +677,13 @@
     <comp ref="C12">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5926F9C2</tstamp>
@@ -650,7 +691,13 @@
     <comp ref="C10">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5926FA92</tstamp>
@@ -658,7 +705,13 @@
     <comp ref="C8">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5926FD04</tstamp>
@@ -666,7 +719,13 @@
     <comp ref="C6">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5926FDDA</tstamp>
@@ -674,7 +733,13 @@
     <comp ref="C5">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5926FEB3</tstamp>
@@ -682,7 +747,13 @@
     <comp ref="C4">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5926FF8F</tstamp>
@@ -690,7 +761,13 @@
     <comp ref="C22">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59275639</tstamp>
@@ -698,7 +775,13 @@
     <comp ref="C19">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5927571B</tstamp>
@@ -706,7 +789,13 @@
     <comp ref="C18">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59275800</tstamp>
@@ -714,7 +803,13 @@
     <comp ref="C16">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592758E8</tstamp>
@@ -722,7 +817,13 @@
     <comp ref="C14">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592759D1</tstamp>
@@ -730,7 +831,13 @@
     <comp ref="C13">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59275ABD</tstamp>
@@ -1016,17 +1123,15 @@
       <tstamp>592953B9</tstamp>
     </comp>
     <comp ref="C11">
-      <value>10µ</value>
+      <value>10u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59298230</tstamp>
     </comp>
     <comp ref="C17">
-      <value>10µ</value>
+      <value>10u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
-      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59298E44</tstamp>
@@ -1090,7 +1195,13 @@
     <comp ref="C31">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59295647</tstamp>
@@ -1112,7 +1223,13 @@
     <comp ref="C15">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DCF68</tstamp>
@@ -1639,11 +1756,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="AMBE3003USB-cache">
-      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
     </library>
     <library logical="ftdi">
       <uri>/usr/share/kicad/library/ftdi.lib</uri>
@@ -1651,14 +1765,17 @@
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
     </library>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="AMBE3003USB-cache">
+      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
     </library>
   </libraries>
   <nets>
