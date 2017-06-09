@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:44:22 PM CEST</date>
+    <date>Fri 09 Jun 2017 01:52:54 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -204,7 +204,13 @@
     <comp ref="P1">
       <value>CONFIG</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/181/M20-998-351176.pdf</datasheet>
+      <fields>
+        <field name="MFR">Harwin</field>
+        <field name="MPN">M20-9981646</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">855-M20-9981646</field>
+      </fields>
       <libsource lib="conn" part="CONN_02X16"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591CE26C</tstamp>
@@ -866,7 +872,13 @@
     <comp ref="J1">
       <value>McBSP</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/181/M20-998-351176.pdf</datasheet>
+      <fields>
+        <field name="MFR">Harwin</field>
+        <field name="MPN">M20-9980446</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">855-M20-9980446</field>
+      </fields>
       <libsource lib="conn" part="CONN_02X04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59284825</tstamp>
@@ -874,7 +886,13 @@
     <comp ref="J2">
       <value>ACONF</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/181/M20-998-351176.pdf</datasheet>
+      <fields>
+        <field name="MFR">Harwin</field>
+        <field name="MPN">M20-9980346</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">855-M20-9980346</field>
+      </fields>
       <libsource lib="conn" part="CONN_02X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5928D899</tstamp>
@@ -1038,7 +1056,13 @@
     <comp ref="J3">
       <value>CODEC</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/181/M20-998-351176.pdf</datasheet>
+      <fields>
+        <field name="MFR">Harwin</field>
+        <field name="MPN">M20-9980546</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">855-M20-9980546</field>
+      </fields>
       <libsource lib="conn" part="CONN_02X05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59281A14</tstamp>
@@ -1603,26 +1627,26 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="ftdi">
+      <uri>/usr/share/kicad/library/ftdi.lib</uri>
+    </library>
     <library logical="AMBE3003USB-cache">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
     </library>
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
     </library>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="ftdi">
-      <uri>/usr/share/kicad/library/ftdi.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
