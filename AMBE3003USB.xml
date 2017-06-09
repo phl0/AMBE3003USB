@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:35:00 PM CEST</date>
+    <date>Fri 09 Jun 2017 01:38:46 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -504,7 +504,13 @@
     <comp ref="R1">
       <value>5.1</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-075R11L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-075R11L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59245149</tstamp>
@@ -1044,7 +1050,13 @@
     <comp ref="R34">
       <value>5.1</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-075R11L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">603-RC0603FR-075R11L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DBEB3</tstamp>
@@ -1573,26 +1585,26 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="AMBE3003USB-cache">
-      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
-    </library>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
     <library logical="regul">
       <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
+    <library logical="AMBE3003USB-cache">
+      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
+    </library>
     <library logical="ftdi">
       <uri>/usr/share/kicad/library/ftdi.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
     </library>
   </libraries>
   <nets>
