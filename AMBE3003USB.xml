@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 02:50:40 PM CEST</date>
+    <date>Fri 09 Jun 2017 03:03:40 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -106,6 +106,13 @@
     <comp ref="C9">
       <value>4u7</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2009_T495-1092841.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A475K020ATE1K8</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A475K20ATE1K8</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BFDA8</tstamp>
@@ -169,6 +176,13 @@
     <comp ref="C27">
       <value>1u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2071_T495_COTS-1104607.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A105K020ATE3K0</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A105K20ATE3K0</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C395F</tstamp>
@@ -176,6 +190,13 @@
     <comp ref="C30">
       <value>2u2</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2009_T495-1092841.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A225K010ATE1K8</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A225K10ATE1K8</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C3C8A</tstamp>
@@ -477,6 +498,13 @@
     <comp ref="C25">
       <value>1u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2071_T495_COTS-1104607.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A105K020ATE3K0</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A105K20ATE3K0</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DEF98</tstamp>
@@ -484,6 +512,13 @@
     <comp ref="C28">
       <value>1u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2071_T495_COTS-1104607.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A105K020ATE3K0</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A105K20ATE3K0</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591DF639</tstamp>
@@ -519,6 +554,13 @@
     <comp ref="C29">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM185R60J105KE26D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM185R60J105KE26</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E720D</tstamp>
@@ -662,6 +704,13 @@
     <comp ref="C3">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R60J106ME47D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R60J106ME47</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5925418B</tstamp>
@@ -669,6 +718,13 @@
     <comp ref="C2">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R60J106ME47D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R60J106ME47</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59254589</tstamp>
@@ -1124,6 +1180,13 @@
     <comp ref="C11">
       <value>10u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2009_T495-1092841.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A106K016ATE1K7</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A106K016AT</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59298230</tstamp>
@@ -1131,6 +1194,13 @@
     <comp ref="C17">
       <value>10u</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/KEM_T2009_T495-1092841.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">T495A106K016ATE1K7</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">80-T495A106K016AT</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59298E44</tstamp>
@@ -1249,6 +1319,7 @@
     </comp>
     <comp ref="U1">
       <value>AMBE3003</value>
+      <footprint>Housings_QFP:LQFP-128_14x14mm_Pitch0.4mm</footprint>
       <libsource lib="custom_components" part="AMBE3003"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>593A2F78</tstamp>
@@ -1755,26 +1826,26 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
-    </library>
     <library logical="ftdi">
       <uri>/usr/share/kicad/library/ftdi.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="regul">
       <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
-    <library logical="AMBE3003USB-rescue">
-      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
     <library logical="AMBE3003USB-cache">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
+    </library>
+    <library logical="AMBE3003USB-rescue">
+      <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
