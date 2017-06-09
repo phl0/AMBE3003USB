@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 01:52:54 PM CEST</date>
+    <date>Fri 09 Jun 2017 01:57:26 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,7 +22,13 @@
     <comp ref="U4">
       <value>FT232RL</value>
       <footprint>Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/163/DS_FT232R-11534.pdf</datasheet>
+      <fields>
+        <field name="MFR">FTDI</field>
+        <field name="MPN">FT232RL-REEL</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">895-FT232RL</field>
+      </fields>
       <libsource lib="ftdi" part="FT232RL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BEED8</tstamp>
@@ -1630,14 +1636,14 @@
     <library logical="custom_components">
       <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
     </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
     <library logical="ftdi">
       <uri>/usr/share/kicad/library/ftdi.lib</uri>
     </library>
     <library logical="AMBE3003USB-cache">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
@@ -1645,8 +1651,8 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
   </libraries>
   <nets>
