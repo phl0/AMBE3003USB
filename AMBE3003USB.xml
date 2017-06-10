@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/florian/Desktop/AMBE3003USB/AMBE3003USB.sch</source>
-    <date>Fri 09 Jun 2017 03:03:40 PM CEST</date>
+    <date>Sat 10 Jun 2017 01:29:09 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1320,6 +1320,13 @@
     <comp ref="U1">
       <value>AMBE3003</value>
       <footprint>Housings_QFP:LQFP-128_14x14mm_Pitch0.4mm</footprint>
+      <datasheet>http://dvsinc.com/manuals/AMBE-3003_manual.pdf</datasheet>
+      <fields>
+        <field name="MFR">DVSI</field>
+        <field name="MPN">AMBE-3003</field>
+        <field name="SPR">DVSI</field>
+        <field name="SPN">AMBE-3003</field>
+      </fields>
       <libsource lib="custom_components" part="AMBE3003"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>593A2F78</tstamp>
@@ -1826,23 +1833,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ftdi">
-      <uri>/usr/share/kicad/library/ftdi.lib</uri>
-    </library>
     <library logical="regul">
       <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="custom_components">
-      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="ftdi">
+      <uri>/usr/share/kicad/library/ftdi.lib</uri>
+    </library>
+    <library logical="custom_components">
+      <uri>/home/florian/Desktop/AMBE3003USB/custom_components.lib</uri>
+    </library>
     <library logical="AMBE3003USB-cache">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="AMBE3003USB-rescue">
       <uri>/home/florian/Desktop/AMBE3003USB/AMBE3003USB-rescue.lib</uri>
