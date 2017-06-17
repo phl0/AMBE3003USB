@@ -43,7 +43,7 @@
     (user_trace_width 0.381)
     (user_trace_width 0.508)
     (user_trace_width 0.8128)
-    (trace_clearance 0.1)
+    (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -231,7 +231,7 @@
   (net 132 /ES_ENABLE)
 
   (net_class Default "Dies ist die voreingestellte Netzklasse."
-    (clearance 0.1)
+    (clearance 0.2)
     (trace_width 0.25)
     (via_dia 0.6)
     (via_drill 0.4)
@@ -372,7 +372,7 @@
   )
 
   (net_class 0.2mm ""
-    (clearance 0.1)
+    (clearance 0.2)
     (trace_width 0.2)
     (via_dia 0.6)
     (via_drill 0.4)
@@ -381,7 +381,7 @@
   )
 
   (net_class 0.5mm ""
-    (clearance 0.1)
+    (clearance 0.2)
     (trace_width 0.5)
     (via_dia 0.6)
     (via_drill 0.4)
@@ -4230,10 +4230,10 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (gr_text RX (at 110.2106 73.533) (layer F.SilkS)
+  (gr_text RX (at 110.2614 75.0316) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left))
   )
-  (gr_text TX (at 110.236 75.184) (layer F.SilkS)
+  (gr_text TX (at 110.236 73.5076) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left))
   )
   (gr_text Power (at 110.236 71.882) (layer F.SilkS)
