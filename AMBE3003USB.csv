@@ -15,14 +15,15 @@ L1,100MHz,Inductors_SMD:L_0603_HandSoldering,1,Murata Electronics,BLM18KG471BH1D
 D1,green,LEDs:LED_0603,1,Wurth Electronics,150060VS75000,Mouser,710-150060VS75000
 D3,red,LEDs:LED_0603,1,Wurth Electronics,150060SS75000,Mouser,710-150060SS75000
 D2,yellow,LEDs:LED_0603,1,Wurth Electronics,150060YS75000,Mouser,710-150060YS75000
+TP4,GND,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
 TP2,IDLE,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
 TP3,RUN,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
 TP1,STANDBY,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
 X1,29.4912,Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm,1,Epson Timing,SG-210STF 29.4912ML3,Mouser,732-SG210STF29.491L3
 J2,ACONF,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm,1,Harwin,M20-9980346,Mouser,855-M20-9980346
-J1,McBSP,Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm,1,Harwin,M20-9980446,Mouser,855-M20-9980446
-J3,CODEC,Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm,1,Harwin,M20-9980546,Mouser,855-M20-9980546
-P1,CONFIG,Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm,1,Harwin,M20-9981646,Mouser,855-M20-9981646
+J1,McBSP,Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm,1,Harwin,M20-9980445,Mouser,855-M20-9980445
+J3,CODEC,Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm,1,Harwin,M20-9980545,Mouser,855-M20-9980545
+P1,CONFIG,Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm,1,Harwin,M20-9981645,Mouser,855-M20-9981645
 R20;R21;R22;R23;R24;R25;R26;R28;R29;R30;R31;R32;R33;R27,0R,Resistors_SMD:R_0603_HandSoldering,14,Yageo,RC0603FR-070RL,Mouser,603-RC0603FR-070RL
 R42,10,Resistors_SMD:R_0603_HandSoldering,1,Yageo,RC0603FR-0710RL,Mouser,603-RC0603FR-0710RL
 R41;R45,10k,Resistors_SMD:R_0603_HandSoldering,2,Yageo,AR0603FR-0710KL,Mouser,603-AR0603FR-0710KL
