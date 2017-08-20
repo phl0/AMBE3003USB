@@ -1,4 +1,4 @@
-update=So 18 Jun 2017 02:48:41 CEST
+update=So 20 Aug 2017 13:54:13 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,7 +66,7 @@ LibName34=Oscillators
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/florian/Desktop/
+PlotDirectoryName=/opt/AMBE3003USB/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
