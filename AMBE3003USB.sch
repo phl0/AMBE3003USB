@@ -1168,7 +1168,7 @@ U 1 1 59284825
 P 5500 4400
 F 0 "J1" H 5500 4650 50  0000 C CNN
 F 1 "McBSP" V 5500 4400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 5500 3200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 5500 3200 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/181/M20-998-351176.pdf" H 5500 3200 50  0001 C CNN
 F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
 F 5 "M20-9980445" H 0   0   50  0001 C CNN "MPN"
@@ -1206,7 +1206,7 @@ U 1 1 5928D899
 P 7600 6000
 F 0 "J3" H 7600 5800 50  0000 C CNN
 F 1 "ACONF" V 7600 6000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 7600 4800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 7600 4800 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/181/M20-998-351176.pdf" H 7600 4800 50  0001 C CNN
 F 4 "Harwin" H 1150 -300 50  0001 C CNN "MFR"
 F 5 "M20-9980345" H 1150 -300 50  0001 C CNN "MPN"
@@ -1389,7 +1389,7 @@ U 1 1 59281A14
 P 9750 5750
 F 0 "J4" H 9750 6050 50  0000 C CNN
 F 1 "CODEC" V 9750 5750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 9750 4550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 9750 4550 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/181/M20-998-351176.pdf" H 9750 4550 50  0001 C CNN
 F 4 "Harwin" H 2150 150 50  0001 C CNN "MFR"
 F 5 "M20-9980545" H 2150 150 50  0001 C CNN "MPN"
@@ -1576,14 +1576,13 @@ L CONN_01X16 P3
 U 1 1 599E1CA6
 P 2350 2700
 F 0 "P3" H 2350 3550 50  0000 C CNN
-F 1 "CONN_01X16" V 2450 2700 50  0000 C CNN
+F 1 "Config" V 2450 2700 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 2350 2700 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/181/Harwin_Product_Catalog_page_206-1134556.pdf" H 2350 2700 50  0001 C CNN
 F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
 F 5 "M20-9991646" H 0   0   50  0001 C CNN "MPN"
 F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
 F 7 "855-M20-9991646" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2350 2700
 	0    -1   -1   0   
 $EndComp
@@ -1592,14 +1591,13 @@ L CONN_01X16 P1
 U 1 1 599E3D43
 P 1250 1550
 F 0 "P1" H 1250 2400 50  0000 C CNN
-F 1 "CONN_01X16" V 1350 1550 50  0000 C CNN
+F 1 "GND" V 1350 1550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 1250 1550 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/181/Harwin_Product_Catalog_page_206-1134556.pdf" H 1250 1550 50  0001 C CNN
 F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
 F 5 "M20-9991646" H 0   0   50  0001 C CNN "MPN"
 F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
 F 7 "855-M20-9991646" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    1250 1550
 	1    0    0    -1  
 $EndComp
@@ -1608,14 +1606,13 @@ L CONN_01X16 P2
 U 1 1 599E3E46
 P 1900 1550
 F 0 "P2" H 1900 2400 50  0000 C CNN
-F 1 "CONN_01X16" V 2000 1550 50  0000 C CNN
+F 1 "3v3" V 2000 1550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 1900 1550 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/181/Harwin_Product_Catalog_page_206-1134556.pdf" H 1900 1550 50  0001 C CNN
 F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
 F 5 "M20-9991646" H 0   0   50  0001 C CNN "MPN"
 F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
 F 7 "855-M20-9991646" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    1900 1550
 	1    0    0    -1  
 $EndComp
