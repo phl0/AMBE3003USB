@@ -33,6 +33,7 @@ LIBS:ftdi
 LIBS:ESD_Protection
 LIBS:custom_components
 LIBS:Oscillators
+LIBS:tps75005rgw_wpin21
 LIBS:AMBE3003USB-cache
 EELAYER 25 0
 EELAYER END
@@ -1500,22 +1501,6 @@ F 3 "" H 1500 700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS75005RGW U2
-U 1 1 599E9B88
-P 4950 1550
-F 0 "U2" H 4550 2300 50  0000 C CNN
-F 1 "TPS75005RGW" H 5200 2300 50  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-20-1EP_5x5mm_Pitch0.65mm" H 4950 1550 50  0000 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps75005.pdf" H 4950 1550 50  0001 C CNN
-F 4 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
-F 5 "TPS75005RGWT" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "595-TPS75005RGWT" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    4950 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R4
 U 1 1 599ECB1A
 P 3900 1600
@@ -1632,12 +1617,12 @@ $EndComp
 $Comp
 L GND #PWR049
 U 1 1 599F1669
-P 6100 1350
-F 0 "#PWR049" H 6100 1100 50  0001 C CNN
-F 1 "GND" H 6100 1200 50  0000 C CNN
-F 2 "" H 6100 1350 50  0000 C CNN
-F 3 "" H 6100 1350 50  0000 C CNN
-	1    6100 1350
+P 6100 1300
+F 0 "#PWR049" H 6100 1050 50  0001 C CNN
+F 1 "GND" H 6100 1150 50  0000 C CNN
+F 2 "" H 6100 1300 50  0000 C CNN
+F 3 "" H 6100 1300 50  0000 C CNN
+	1    6100 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2083,7 +2068,7 @@ NoConn ~ 5200 2400
 NoConn ~ 4350 1750
 NoConn ~ 4950 2400
 NoConn ~ 5050 2400
-NoConn ~ 5550 2000
+NoConn ~ 5550 1950
 $Comp
 L CONN_01X03 P8
 U 1 1 59B6872B
@@ -2700,13 +2685,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 850  6250 1650
 Wire Wire Line
-	5550 1600 6250 1600
-Wire Wire Line
 	6250 1950 6250 2050
-Wire Wire Line
-	5550 1750 5650 1750
-Wire Wire Line
-	5650 1750 5650 1600
 Wire Wire Line
 	4700 2500 4700 2400
 Wire Wire Line
@@ -2714,19 +2693,9 @@ Wire Wire Line
 Wire Wire Line
 	4350 1900 4200 1900
 Wire Wire Line
-	5950 1250 5550 1250
-Wire Wire Line
-	5950 850  5950 1250
-Wire Wire Line
-	5550 1400 5650 1400
-Wire Wire Line
-	5650 1400 5650 1250
-Wire Wire Line
 	6100 950  6100 900 
 Wire Wire Line
 	6100 900  5950 900 
-Wire Wire Line
-	6100 1250 6100 1350
 Wire Wire Line
 	3150 2200 4300 2200
 Wire Wire Line
@@ -2918,10 +2887,7 @@ Connection ~ 1500 2000
 Connection ~ 1500 2100
 Connection ~ 1500 2200
 Connection ~ 4250 950 
-Connection ~ 6250 1600
-Connection ~ 5650 1600
 Connection ~ 4600 2500
-Connection ~ 5650 1250
 Connection ~ 5950 900 
 Connection ~ 2700 1250
 Connection ~ 9250 950 
@@ -3011,4 +2977,50 @@ Wire Wire Line
 	3850 3800 5300 3800
 Wire Wire Line
 	5300 3800 5300 3300
+$Comp
+L TPS75005RGW_wPin21 U2
+U 1 1 59B997E7
+P 4950 1550
+F 0 "U2" H 4550 2300 50  0000 C CNN
+F 1 "TPS75005RGW_wPin21" H 5200 2300 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-20-1EP_5x5mm_Pitch0.65mm" H 4950 1550 50  0000 C CIN
+F 3 "" H 4950 1550 50  0000 C CNN
+	1    4950 1550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4800 2400
+Wire Wire Line
+	6100 1300 6100 1250
+Wire Wire Line
+	5550 1200 5950 1200
+Wire Wire Line
+	5950 1200 5950 850 
+Wire Wire Line
+	5550 1350 5600 1350
+Wire Wire Line
+	5600 1350 5600 1200
+Connection ~ 5600 1200
+Wire Wire Line
+	5550 1550 6250 1550
+Connection ~ 6250 1550
+Wire Wire Line
+	5550 1700 5600 1700
+Wire Wire Line
+	5600 1700 5600 1550
+Connection ~ 5600 1550
+$Comp
+L GND #PWR061
+U 1 1 59B9AF22
+P 5600 2150
+F 0 "#PWR061" H 5600 1900 50  0001 C CNN
+F 1 "GND" H 5600 2000 50  0000 C CNN
+F 2 "" H 5600 2150 50  0000 C CNN
+F 3 "" H 5600 2150 50  0000 C CNN
+	1    5600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2050 5600 2050
+Wire Wire Line
+	5600 2050 5600 2150
 $EndSCHEMATC

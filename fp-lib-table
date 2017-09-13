@@ -1,5 +1,4 @@
 (fp_lib_table
   (lib (name TI)(type KiCad)(uri "$(KIPRJMOD)/TI.pretty")(options "")(descr ""))
   (lib (name VIA)(type KiCad)(uri "$(KIPRJMOD)/VIA.pretty")(options "")(descr ""))
-  (lib (name Graphics)(type KiCad)(uri "$(KIPRJMOD)/Graphics.pretty")(options "")(descr ""))
 )

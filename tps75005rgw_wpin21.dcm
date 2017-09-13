@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS75005RGW_wPin21
+D Integrated MCU Power Solution, Dual Low Drop-Out Regulator 500mA with Supervisor, VQFN20
+K Dual LDO Regulator Dual Integrated Power SVS Supervisor
+F http://www.ti.com/lit/ds/symlink/tps75005.pdf
+$ENDCMP
+#
+#End Doc Library

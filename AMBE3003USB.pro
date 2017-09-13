@@ -1,4 +1,4 @@
-update=So 20 Aug 2017 13:54:13 CEST
+update=Mi 13 Sep 2017 14:50:15 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/opt/AMBE3003USB/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=49
 [eeschema]
 version=1
 LibDir=
@@ -63,13 +73,4 @@ LibName31=ftdi
 LibName32=ESD_Protection
 LibName33=custom_components
 LibName34=Oscillators
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/opt/AMBE3003USB/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=49
+LibName35=tps75005rgw_wpin21
