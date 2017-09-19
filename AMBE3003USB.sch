@@ -1418,75 +1418,14 @@ F 3 "" H 5400 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMBE3003 U1
-U 1 1 593A2F78
-P 2950 5250
-F 0 "U1" H 1350 6600 60  0000 C CNN
-F 1 "AMBE3003" H 4200 6500 60  0000 C CNN
-F 2 "Housings_QFP:LQFP-128_14x14mm_Pitch0.4mm" H 2650 5800 60  0001 C CNN
-F 3 "http://dvsinc.com/manuals/AMBE-3003_manual.pdf" H 2650 5800 60  0001 C CNN
-F 4 "DVSI" H 0   0   50  0001 C CNN "MFR"
-F 5 "AMBE-3003" H 0   0   50  0001 C CNN "MPN"
-F 6 "DVSI" H 0   0   50  0001 C CNN "SPR"
-F 7 "AMBE-3003" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    2950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X16 P2
-U 1 1 599E1CA6
-P 2350 2700
-F 0 "P2" H 2350 3550 50  0000 C CNN
-F 1 "Config" V 2450 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 2350 2700 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/181/Harwin_Product_Catalog_page_206-1134556.pdf" H 2350 2700 50  0001 C CNN
-F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
-F 5 "M20-9991646" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "855-M20-9991646" H 0   0   50  0001 C CNN "SPN"
-	1    2350 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_01X16 P1
-U 1 1 599E3D43
-P 1250 1550
-F 0 "P1" H 1250 2400 50  0000 C CNN
-F 1 "GND" V 1350 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 1250 1550 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/181/Harwin_Product_Catalog_page_206-1134556.pdf" H 1250 1550 50  0001 C CNN
-F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
-F 5 "M20-9991646" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "855-M20-9991646" H 0   0   50  0001 C CNN "SPN"
-	1    1250 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X16 P3
-U 1 1 599E3E46
-P 1900 1550
-F 0 "P3" H 1900 2400 50  0000 C CNN
-F 1 "3v3" V 2000 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 1900 1550 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/181/Harwin_Product_Catalog_page_206-1134556.pdf" H 1900 1550 50  0001 C CNN
-F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
-F 5 "M20-9991646" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "855-M20-9991646" H 0   0   50  0001 C CNN "SPN"
-	1    1900 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR041
 U 1 1 599E3F17
-P 850 2400
-F 0 "#PWR041" H 850 2150 50  0001 C CNN
-F 1 "GND" H 850 2250 50  0000 C CNN
-F 2 "" H 850 2400 50  0000 C CNN
-F 3 "" H 850 2400 50  0000 C CNN
-	1    850  2400
+P 850 2600
+F 0 "#PWR041" H 850 2350 50  0001 C CNN
+F 1 "GND" H 850 2450 50  0000 C CNN
+F 2 "" H 850 2600 50  0000 C CNN
+F 3 "" H 850 2600 50  0000 C CNN
+	1    850  2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2603,7 +2542,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 800  850  800 
 Wire Wire Line
-	850  800  850  2400
+	850  800  850  2600
 Wire Wire Line
 	1050 900  850  900 
 Wire Wire Line
@@ -2637,7 +2576,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 800  1500 800 
 Wire Wire Line
-	1500 700  1500 2300
+	1500 700  1500 2400
 Wire Wire Line
 	1500 2300 1700 2300
 Wire Wire Line
@@ -3023,4 +2962,66 @@ Wire Wire Line
 	5550 2050 5600 2050
 Wire Wire Line
 	5600 2050 5600 2150
+$Comp
+L AMBE3003 U1
+U 1 1 59C19960
+P 2950 5250
+F 0 "U1" H 1350 6600 60  0000 C CNN
+F 1 "AMBE3003" H 4250 6600 60  0000 C CNN
+F 2 "Housings_QFP:TQFP-128_14x14mm_Pitch0.4mm" H 2650 5800 60  0001 C CNN
+F 3 "" H 2650 5800 60  0000 C CNN
+	1    2950 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 7450 0    49   Input ~ 0
+PARITY_ENABLE
+Wire Wire Line
+	3450 7000 3450 7450
+Wire Wire Line
+	3450 7450 3300 7450
+Text GLabel 3300 3100 2    49   Input ~ 0
+PARITY_ENABLE
+Wire Wire Line
+	3300 3100 3200 3100
+Wire Wire Line
+	3200 3100 3200 2900
+$Comp
+L CONN_01X17 P2
+U 1 1 59C1BE10
+P 2400 2700
+F 0 "P2" H 2400 3600 50  0000 C CNN
+F 1 "Config" V 2500 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17" H 2400 2700 50  0001 C CNN
+F 3 "" H 2400 2700 50  0000 C CNN
+	1    2400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X17 P1
+U 1 1 59C1C854
+P 1250 1600
+F 0 "P1" H 1250 2500 50  0000 C CNN
+F 1 "GND" V 1350 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17" H 1250 1600 50  0001 C CNN
+F 3 "" H 1250 1600 50  0000 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2400 850  2400
+Connection ~ 850  2400
+$Comp
+L CONN_01X17 P3
+U 1 1 59C1D3C2
+P 1900 1600
+F 0 "P3" H 1900 2500 50  0000 C CNN
+F 1 "3v3" V 2000 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17" H 1900 1600 50  0001 C CNN
+F 3 "" H 1900 1600 50  0000 C CNN
+	1    1900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2400 1700 2400
+Connection ~ 1500 2300
 $EndSCHEMATC
