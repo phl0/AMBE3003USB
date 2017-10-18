@@ -43,10 +43,10 @@ Sheet 1 1
 Title "AMBE3003USB"
 Date "2017-10-18"
 Rev "v1.2"
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comp "DB9MAT & DF2ET"
+Comment1 "mathis@giev.de"
+Comment2 "df2et@df2et.de"
+Comment3 "CC-BY-NC-SA 3.0"
 Comment4 ""
 $EndDescr
 $Comp
