@@ -1502,7 +1502,7 @@ F 6 "Mouser" H 450 450 50  0001 C CNN "SPR"
 F 7 "80-T495A106K016AT" H 450 450 50  0001 C CNN "SPN"
 F 8 "" H 450 450 50  0001 C CNN "SPURL"
 	1    6250 1800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR046
@@ -1551,7 +1551,7 @@ F 6 "Mouser" H 300 -250 50  0001 C CNN "SPR"
 F 7 "80-T495A106K016AT" H 300 -250 50  0001 C CNN "SPN"
 F 8 "" H 300 -250 50  0001 C CNN "SPURL"
 	1    6100 1100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR049
