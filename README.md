@@ -2,6 +2,8 @@
 
 This is a homebrew evaluation board for AMBE3000 and AMBE3003 Chips. It can be used as a replacement for USB-3003 devices to work as a transcoder for [XLX](https://github.com/LX3JL/xlxd) reflectors.
 
+![PCB](https://github.com/phl0/AMBE3003USB/blob/master/AMBE3003USB.png)
+
 ## Version 1.0
 
 This is the initial version. Apparently it has two errors: The power supply is faulty due to R42 being to small in value. Bypassing the resistor works basically. The 1v9 rail draws to much power resulting in U5 running hot. 
