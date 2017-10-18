@@ -13,7 +13,9 @@ The second issue is that this revision does not support hardware reset of the AM
 
 The power supply has been redesigned. An additional transistor has been added to allow for a hardware reset using the DTR pin of the FT-232RL. This needs code changes in the XLX code. Additionally there have been added some more pins to the pin header that allow for configuring parity for AMBE3000 chips by jumper.
 
-This version is currently under test and will be merged into the master branch when testing the boards reveals success.
+Testing this version revealed an issue with missing pull-up resistor on the PWREN signal. That results in the voltage regulator not beeing activated. Quick fix is to add a 10k SMD resistor from bottom pin of R4 to anode of C5 (5v0). This is going to be fixed in revision 1.2.
+
+*This version is not recommended for (re-)production!*
 
 # Contributors
 
