@@ -3,9 +3,9 @@
   (general
     (links 394)
     (no_connects 0)
-    (area 31.974499 47.974499 127.025501 133.025501)
+    (area 31.974499 41.5 138.65 133.025501)
     (thickness 1.6)
-    (drawings 161)
+    (drawings 162)
     (tracks 1338)
     (zones 0)
     (modules 211)
@@ -5562,6 +5562,9 @@
       (xy 4.15036 -0.50546)) (layer F.SilkS) (width 0.00254))
   )
 
+  (gr_text CC-BY-NC-SA (at 101.1428 130.95478) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.3)))
+  )
   (gr_text BOT (at 123.19 89.26 90) (layer B.Cu)
     (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
   )
