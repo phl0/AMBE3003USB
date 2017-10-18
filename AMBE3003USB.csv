@@ -7,31 +7,32 @@ C5;C7;C6,10u,Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering,3,KEME
 C26;C27,1u,Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering,2,KEMET,T495A105K020ATE3K0,Mouser,80-T495A105K20ATE3K0
 C29,4u7,Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering,1,KEMET,T495A475K020ATE1K8,Mouser,80-T495A475K20ATE1K8
 J2,USB_OTG,Connect:USB_Mini-B,1,Molex,67503-1020,Mouser,538-67503-1020
-U2,TPS75005RGW,Housings_DFN_QFN:QFN-20-1EP_5x5mm_Pitch0.65mm,1,Texas Instruments,TPS75005RGWT,Mouser,595-TPS75005RGWT
-U1,AMBE3003,Housings_QFP:LQFP-128_14x14mm_Pitch0.4mm,1,DVSI,AMBE-3003,DVSI,AMBE-3003
+U2,TPS75005RGW_wPin21,Housings_DFN_QFN:QFN-20-1EP_5x5mm_Pitch0.65mm,1,Texas Instruments,TPS75005RGWT,Mouser,595-TPS75005RGWT
+U1,AMBE3003,Housings_QFP:TQFP-128_14x14mm_Pitch0.4mm,1,DVSI,AMBE-3003,,
 U3,FT232RL,Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm,1,FTDI,FT232RL-REEL,Mouser,895-FT232RL
 L1,100MHz,Inductors_SMD:L_0603_HandSoldering,1,Murata Electronics,BLM18KG471BH1D,Mouser,81-BLM18KG471BH1D
 D1,green,LEDs:LED_0603,1,Wurth Electronics,150060VS75000,Mouser,710-150060VS75000
 D3,red,LEDs:LED_0603,1,Wurth Electronics,150060SS75000,Mouser,710-150060SS75000
 D2,yellow,LEDs:LED_0603,1,Wurth Electronics,150060YS75000,Mouser,710-150060YS75000
-TP4,GND,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
-TP2,IDLE,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
-TP3,RUN,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
-TP1,STANDBY,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,1,,,,
 X1,29.4912,Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm,1,Epson Timing,SG-210STF 29.4912ML3,Mouser,732-SG210STF29.491L3
-P5,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,1,Harwin,M20-9990246,Mouser,855-M20-9990246
-P4;P6,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,2,Harwin,M20-9990346,Mouser,855-M20-9990346
-P3;P1;P2,CONN_01X16,Pin_Headers:Pin_Header_Straight_1x16,3,Harwin,M20-9991646,Mouser,855-M20-9991646
-J3,ACONF,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm,1,Harwin,M20-9980345,Mouser,855-M20-9980345
-J1,McBSP,Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm,1,Harwin,M20-9980445,Mouser,855-M20-9980445
-J4,CODEC,Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm,1,Harwin,M20-9980545,Mouser,855-M20-9980545
+P5,HARD RESET,Pin_Headers:Pin_Header_Straight_1x02,1,Harwin,M20-9990246,Mouser,855-M20-9990246
+P7,3v3,Pin_Headers:Pin_Header_Straight_1x03,1,Harwin,M20-9990346,Mouser,855-M20-9990346
+P8,ACONF,Pin_Headers:Pin_Header_Straight_1x03,1,Harwin,M20-9990346,Mouser,855-M20-9990346
+P9,GND,Pin_Headers:Pin_Header_Straight_1x03,1,Harwin,M20-9990346,Mouser,855-M20-9990346
+P6,SEQ,Pin_Headers:Pin_Header_Straight_1x03,1,Harwin,M20-9990346,Mouser,855-M20-9990346
+P4,VSET,Pin_Headers:Pin_Header_Straight_1x03,1,Harwin,M20-9990346,Mouser,855-M20-9990346
+TP1,Testpoints,Pin_Headers:Pin_Header_Straight_1x04,1,Harwin,M20-9990446,Mouser,855-M20-9990446
+P3,3v3,Pin_Headers:Pin_Header_Straight_1x17,1,Harwin,M20-9991746,Mouser,855-M20-9991746
+P2,Config,Pin_Headers:Pin_Header_Straight_1x17,1,Harwin,M20-9991746,Mouser,855-M20-9991746
+P1,GND,Pin_Headers:Pin_Header_Straight_1x17,1,Harwin,M20-9991746,Mouser,855-M20-9991746
+J1,McBSP,Pin_Headers:Pin_Header_Straight_2x04,1,Harwin,M20-9980445,Mouser,855-M20-9980445
+J4,CODEC,Pin_Headers:Pin_Header_Straight_2x05,1,Harwin,M20-9980545,Mouser,855-M20-9980545
 R12;R13;R14;R15;R16;R17;R18;R6;R7;R8;R9;R10;R11;R19,0R,Resistors_SMD:R_0603_HandSoldering,14,Yageo,RC0603FR-070RL,Mouser,603-RC0603FR-070RL
-R21;R3;R33,10k,Resistors_SMD:R_0603_HandSoldering,3,Yageo,RC0603FR-0710KL,Mouser,603-RC0603FR-0710KL
+R21;R3;R33;R22,10k,Resistors_SMD:R_0603_HandSoldering,4,Yageo,RC0603FR-0710KL,Mouser,603-RC0603FR-0710KL
 R32,1k,Resistors_SMD:R_0603_HandSoldering,1,Yageo,RC0603FR-071KL,Mouser,603-RC0603FR-071KL
 R5;R27;R4,24k,Resistors_SMD:R_0603_HandSoldering,3,Yageo,RC0603FR-0724KL,Mouser,603-RC0603FR-0724KL
 R25;R26,27,Resistors_SMD:R_0603_HandSoldering,2,Yageo,RC0603FR-0727RL,Mouser,603-RC0603FR-0727RL
 R30;R31;R28,270,Resistors_SMD:R_0603_HandSoldering,3,Yageo,RC0603FR-07270RL,Mouser,603-RC0603FR-07270RL
-R22;R23;R24,3k3,Resistors_SMD:R_0603_HandSoldering,3,Yageo,RC0603FR-073K3L,Mouser,603-RC0603FR-073K3L
 R2,3k74,Resistors_SMD:R_0603_HandSoldering,1,Yageo,RC0603FR-073K74L,Mouser,603-RC0603FR-073K74L
 R1;R20,5.1,Resistors_SMD:R_0603_HandSoldering,2,Yageo,RC0603FR-075R11L,Mouser,603-RC0603FR-075R11L
 Q1,BC847,TO_SOT_Packages_SMD:SOT-23_Handsoldering,1,ON Semiconductor,BC847BLT1G,Mouser,863-BC847BLT1G
