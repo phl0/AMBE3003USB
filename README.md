@@ -11,7 +11,7 @@ The second issue is that this revision does not support hardware reset of the AM
 
 This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=42f49e97ec) shopping cart.
 
-*This version is not recommended for (re-)production!*
+**This version is not recommended for (re-)production!**
 
 ## Version 1.1
 
@@ -21,13 +21,15 @@ Testing this version revealed an issue with missing pull-up resistor on the PWRE
 
 This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=05fa8acc46) shopping cart.
 
-*This version is not recommended for (re-)production!*
+**This version is not recommended for (re-)production!**
 
 ## Version 1.2
 
 A 10k resistor (R22) was added to the schematics and board layout. 
 
-This version has not been tested yet. Use at your own risk.
+This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9071144aec) shopping cart.
+
+**This version has not been tested yet. Use at your own risk.**
 
 # Contributors
 
