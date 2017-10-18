@@ -17,6 +17,12 @@ Testing this version revealed an issue with missing pull-up resistor on the PWRE
 
 *This version is not recommended for (re-)production!*
 
+## Version 1.2
+
+A 10k resistor (R22) was added to the schematics and board layout. 
+
+This version has not been tested yet. Use at your own risk.
+
 # Contributors
 
 This is the list of contributors. Thank you for your additions:
