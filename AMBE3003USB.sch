@@ -41,8 +41,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AMBE3003USB"
-Date "2017-09-05"
-Rev "v1.1"
+Date "2017-10-18"
+Rev "v1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
