@@ -9,6 +9,8 @@ This is a homebrew evaluation board for AMBE3000 and AMBE3003 Chips. It can be u
 This is the initial version. Apparently it has two errors: The power supply is faulty due to R42 being to small in value. Bypassing the resistor works basically. The 1v9 rail draws to much power resulting in U5 running hot. 
 The second issue is that this revision does not support hardware reset of the AMBE3003 CPU. Soft reset does not work 100% reliably. In this case only un- and re-plugging the device works.
 
+This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=42f49e97ec) shopping cart.
+
 *This version is not recommended for (re-)production!*
 
 ## Version 1.1
@@ -16,6 +18,8 @@ The second issue is that this revision does not support hardware reset of the AM
 The power supply has been redesigned. An additional transistor has been added to allow for a hardware reset using the DTR pin of the FT-232RL. This needs code changes in the XLX code. Additionally there have been added some more pins to the pin header that allow for configuring parity for AMBE3000 chips by jumper.
 
 Testing this version revealed an issue with missing pull-up resistor on the PWREN signal. That results in the voltage regulator not beeing activated. Quick fix is to add a 10k SMD resistor from bottom pin of R4 to anode of C5 (5v0). This is going to be fixed in revision 1.2.
+
+This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=05fa8acc46) shopping cart.
 
 *This version is not recommended for (re-)production!*
 
