@@ -2,18 +2,34 @@
 
 This is a homebrew evaluation board for AMBE-3000 and AMBE-3003 Chips. It can be used as a replacement for USB-3003 devices to work as a transcoder for [XLX](https://github.com/LX3JL/xlxd) reflectors. This board is supported by the AMBEd daemon from version 1.2 onwards.
 
+![PCB](https://github.com/phl0/AMBE3003USB/blob/master/AMBE3003USB.png)
+
 ## Version 1.0
 
 This is the initial version. Apparently it has two errors: The power supply is faulty due to R42 being to small in value. Bypassing the resistor works basically. The 1v9 rail draws to much power resulting in U5 running hot. 
 The second issue is that this revision does not support hardware reset of the AMBE-3003 CPU. Soft reset does not work 100% reliably. In this case only un- and re-plugging the device works.
 
-*This version is not recommended for (re-)production!*
+This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=42f49e97ec) shopping cart.
+
+**This version is not recommended for (re-)production!**
 
 ## Version 1.1
 
 The power supply has been redesigned. An additional transistor has been added to allow for a hardware reset using the DTR pin of the FT-232RL. This needs code changes in the XLX code. Additionally there have been added some more pins to the pin header that allow for configuring parity for AMBE-3000 chips by jumper.
 
-This version is currently under test and will be merged into the master branch when testing the boards reveals success.
+Testing this version revealed an issue with missing pull-up resistor on the PWREN signal. That results in the voltage regulator not beeing activated. Quick fix is to add a 10k SMD resistor from bottom pin of R4 to anode of C5 (5v0). This is going to be fixed in revision 1.2.
+
+This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=05fa8acc46) shopping cart.
+
+**This version is not recommended for (re-)production!**
+
+## Version 1.2
+
+A 10k resistor (R22) was added to the schematics and board layout. 
+
+This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9071144aec) shopping cart.
+
+**This version has not been tested yet. Use at your own risk.**
 
 # Usage
 
@@ -49,3 +65,7 @@ If using in combination with XLX/AMBEd make sure that the operating system does 
 This is the list of contributors. Thank you for your additions:
 
 * Mathis, DB9MAT
+
+# License
+
+This project is released under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0, https://creativecommons.org/licenses/by-nc-sa/3.0/) license. You may edit and share it as you like, as long as credit is given and the license is not changed. You can build as many boards for you and your friends as you like and you can even sell it to them to cover your costs, **however it is strictly forbidden to turn this into a commercial product! You are not allowed to build and sell these boards for profit!**
