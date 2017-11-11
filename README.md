@@ -35,7 +35,7 @@ This is the link to the [Mouser project](https://www.mouser.com/ProjectManager/P
 
 ## Flashing FT232
 
-After building the board you have to flash the onboard FT-232 USB converter. The AMBEd expects to find this device with product ID "DF2ET-3003". The product ID can be flashed with the original FTprog by FTDI or using [ft232r_prog](http://rtr.ca/ft232r/) (command is ./ft232r_prog --product "DF2ET2-3003").
+After building the board you have to flash the onboard FT-232 USB converter. The AMBEd expects to find this device with product ID "DF2ET-3003". The product ID can be flashed with the original FTprog by FTDI or using [ft232r_prog](http://rtr.ca/ft232r/) (command is ./ft232r_prog --product "DF2ET-3003").
 
 ## Setting Jumpers
 
